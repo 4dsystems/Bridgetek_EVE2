@@ -53,6 +53,11 @@ Bridgetek_EVE2::Bridgetek_EVE2(void)
 {
 }
 
+Bridgetek_EVE2::Bridgetek_EVE2(int csPin, int pdPin)
+{
+    MCU_SetPins(csPin, pdPin);
+}
+
 void Bridgetek_EVE2::setup(uint32_t panel)
 {
     setpanel(panel);

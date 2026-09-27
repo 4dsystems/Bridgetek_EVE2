@@ -70,6 +70,7 @@ class Bridgetek_EVE2
 {
   public:
     Bridgetek_EVE2(void);
+    Bridgetek_EVE2(int csPin, int pdPin);
 
   void setup(uint32_t panel);
 
